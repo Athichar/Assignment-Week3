@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'assingment3.dart'; // เปลี่ยนเป็นชื่อไฟล์ที่ปิ่นเก็บ AirQualityPage ไว้
+import 'assignment2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Air Quality App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        fontFamily: 'Roboto', // ใส่ฟอนต์มาตรฐานให้ดูคลีนขึ้น
+        useMaterial3: true,
       ),
       home: const AirQualityPage(),
     );
